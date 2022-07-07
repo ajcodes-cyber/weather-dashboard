@@ -29,7 +29,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Installation
 
-In order to view the code quiz, you will need to visit the live deployment URL: https://ajcodes-cyber.github.io/javascript-quiz/
+In order to view the project, you will need to visit the live deployment URL: https://ajcodes-cyber.github.io/javascript-quiz/
 
 ## Usage
 
