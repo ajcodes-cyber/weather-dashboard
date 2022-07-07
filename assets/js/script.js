@@ -17,12 +17,13 @@ function getInfo() {
         }
     })
 
-// Catch method will display the error just in case
-.catch(err => alert("Something went wrong"));
+// // Catch method will display the error just in case
+// .catch(err => alert("Something went wrong"));
 }
 
 function defaultScreen() {
     document.getElementById("cityInput").defaultValue ="Dallas";
+    getInfo();
 }
 
 var d = new Date();
