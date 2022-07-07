@@ -21,13 +21,22 @@ function getInfo() {
 .catch(err => alert("Something went wrong"));
 }
 
+function defaultScreen() {
+    document.getElementById("cityInput").defaultValue ="Dallas";
+}
+
 var d = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+// function to get the day of the week
 function checkDay(day) {
     if (day +d.getDay() > 6) {
         return day +d.getDay()-7;
     } else {
         return day +d.getDay();
     }
+}
+
+for (i=0; i<5; i++) {
+    document.getElementById("day"+(i+1)).innerHTML = weekday[checkDay(i)];
 }
