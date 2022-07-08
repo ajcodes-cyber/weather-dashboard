@@ -33,8 +33,6 @@ In order to view the project, you will need to visit the live deployment URL: ht
 
 ## Usage
 
-![Screenshot of coding quiz opening](./assets/images/coding-quiz-screenshot.png)
-
 ## Credits
 
 * I referenced a YouTube video by Ranjan ([https://www.youtube.com/watch?v=riDzcEQbX6k](https://www.youtube.com/watch?v=QEu8_5bYm-w&t=83s))
